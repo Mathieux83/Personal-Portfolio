@@ -9,8 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-three/drei": "^10.6.1",
+    "@react-three/drei": "^10.7.3",
     "@react-three/fiber": "^9.3.0",
+    "@sentry/nextjs": "^10.5.0",
     "clsx": "^2.1.1",
     "mini-svg-data-uri": "^1.4.4",
     "motion": "^12.23.12",

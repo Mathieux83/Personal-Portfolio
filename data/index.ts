@@ -1,8 +1,9 @@
 export const navItems = [
-	{ name: "About", link: "#about" },
-	{ name: "Projects", link: "#projects" },
-	{ name: "Testimonials", link: "#testimonials" },
-	{ name: "Contact", link: "#contact" },
+	{ name: "About", link: "#about", id: 1 },
+	{ name: "Projects", link: "#projects", id: 2 },
+	{ name: "Testimonials", link: "#testimonials", id: 3 },
+	{ name: "Experiences", link: "#experiences", id: 4 },
+	{ name: "Contact", link: "#contact", id: 5 },
 ];
 
 export const gridItems = [
@@ -90,49 +91,60 @@ export const projects = [
 
 export const testimonials = [
 	{
+		id: 1,
 		quote:
 			"Collaborating with Mathieux was an absolute pleasure. His professionalism, promptness and dedication to delivering outstanding results were evident throughout our project, even if he works alone. Mathieux’s enthusiasm for every facet of development really stands out. If you are looking to elevate your website and brand, Mathieux is the perfect partner.",
 		name: "GigiHesse",
 		title: "Artist - Independent",
+		img: "/gigi.svg",
 	},
 	{
+		id: 2,
+
 		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
+			"Travailler avec Mathieux a été une expérience exceptionnelle. Sa créativité et son sens du détail ont donné vie à notre projet bien au-delà de nos attentes. Toujours à l’écoute et réactif, c’est un véritable partenaire de confiance.",
+		name: "Sophie Martin",
+		title: "Responsable Communication chez Nova Créations",
+		img: '/sophie.svg'
 	},
 	{
+		id: 3,
 		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
+			"Mathieux is a highly skilled developer who not only understands technical challenges but also provides innovative solutions. His ability to adapt and deliver on time makes him an invaluable asset to any project.",
+		name: "David Thompson",
+		title: "Project Manager at BrightTech Solutions",
+		img: '/david.svg'
 	},
 	{
+		id: 4,
 		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
+			"Nous avons collaboré avec Mathieux sur la refonte de notre plateforme. Sa rigueur, son professionnalisme ainsi que sa disponibilité ont grandement contribué au succès du projet.",
+		name: "Karim Benali",
+		title: "CTO de StartUp Innov",
+		img: '/karim.svg'
 	},
 	{
+		id: 5,
 		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
+			"Working with Mathieux was seamless from start to finish. His enthusiasm, problem-solving mindset, and technical knowledge made the whole process smooth and efficient.",
+		name: "Emily Rodriguez",
+		title: "CEO of Visionary Web Agency",
+		img: '/emily.svg'
 	},
 ];
 
 export const companies = [
 	{
 		id: 1,
-		name: "cloudinary",
-		img: "/cloud.svg",
-		nameImg: "/cloudName.svg",
+		name: "ovh",
+		img: "/vh.svg",
+		nameImg: "/ovhName.svg",
 	},
 	{
 		id: 2,
-		name: "appwrite",
-		img: "/app.svg",
-		nameImg: "/appName.svg",
+		name: "github",
+		img: "/github-mark-white.svg",
+		nameImg: "/GitHub_Logo_White.svg",
 	},
 	{
 		id: 3,
@@ -142,9 +154,9 @@ export const companies = [
 	},
 	{
 		id: 4,
-		name: "stream",
-		img: "/s.svg",
-		nameImg: "/streamName.svg",
+		name: "Vercel",
+		img: "/vercel.svg",
+		nameImg: "/vercelName.svg",
 	},
 	{
 		id: 5,

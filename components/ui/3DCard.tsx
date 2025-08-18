@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { cn } from "@/lib/utils";
@@ -43,14 +44,16 @@ export const CardContainer = ({
 		}
 	};
 
-	const handleMouseEnter = (e: React.MouseEvent<HTMLDivElement>) => {
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
+	const handleMouseEnter = (_e: React.MouseEvent<HTMLDivElement>) => {
 		if (!isMobile()) {
 			setIsMouseEntered(true);
 		}
 		if (!containerRef.current) return;
 	};
 
-	const handleMouseLeave = (e: React.MouseEvent<HTMLDivElement>) => {
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
+	const handleMouseLeave = (_e: React.MouseEvent<HTMLDivElement>) => {
 		if (!containerRef.current) return;
 		if (!isMobile()) {
 			setIsMouseEntered(false);
