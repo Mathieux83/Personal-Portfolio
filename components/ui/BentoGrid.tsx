@@ -1,10 +1,9 @@
 /* The above code is a TypeScript React component that defines a `BentoGrid` and `BentoGridItem`
 component. */
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
 
-// Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
 
 import { cn } from "@/lib/utils";
@@ -25,7 +24,6 @@ export const BentoGrid = ({
 	return (
 		<div
 			className={cn(
-				// change gap-4 to gap-8, change grid-cols-3 to grid-cols-5, remove md:auto-rows-[18rem], add responsive code
 				"grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
 				className
 			)}
@@ -40,7 +38,6 @@ export const BentoGridItem = ({
 	id,
 	title,
 	description,
-	//   remove unecessary things here
 	img,
 	imgClassName,
 	titleClassName,
@@ -70,9 +67,22 @@ export const BentoGridItem = ({
 		},
 	};
 
-	const handleCopy = async () => {
+	const handleCopy = () => {
 		try {
-			await navigator.clipboard.writeText(textToCopy);
+			if (navigator.clipboard && window.isSecureContext) {
+				navigator.clipboard.writeText(textToCopy);
+			} else {
+				const textArea = document.createElement("textarea");
+				textArea.value = textToCopy;
+				textArea.style.position = "fixed";
+				textArea.style.left = "-999999px";
+				textArea.style.top = "-999999px";
+				document.body.appendChild(textArea);
+				textArea.focus();
+				textArea.select();
+				document.execCommand('copy');
+				textArea.remove();
+			}
 			setCopied(true);
 			setTimeout(() => {
 				setCopied(false);
@@ -111,7 +121,7 @@ export const BentoGridItem = ({
 					)}
 				</div>
 				<div
-					className={`absolute right-0 -bottom-5 ${
+					className={`absolute right-0 bottom-0 ${
 						id === 5 && "w-full opacity-80"
 					} `}
 				>
@@ -161,8 +171,7 @@ export const BentoGridItem = ({
 								{leftLists.map((item, i) => (
 									<span
 										key={i}
-										className='lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]'
+										className='lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]'
 									>
 										{item}
 									</span>
@@ -174,8 +183,7 @@ export const BentoGridItem = ({
 								{rightLists.map((item, i) => (
 									<span
 										key={i}
-										className='lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]'
+										className='lg:py-4 lg:px-3 py-2 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]'
 									>
 										{item}
 									</span>
@@ -184,11 +192,7 @@ export const BentoGridItem = ({
 						</div>
 					)}
 					{id === 6 && (
-						<div className='mt-5 relative'>
-							{/* button border magic from tailwind css buttons  */}
-							{/* add rounded-md h-8 md:h-8, remove rounded-full */}
-							{/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
-							{/* add handleCopy() for the copy the text */}
+						<div className='mt-5 md:mt-0 relative'>
 							<div
 								className={`absolute -bottom-5 right-0 ${
 									copied ? "block" : "block"

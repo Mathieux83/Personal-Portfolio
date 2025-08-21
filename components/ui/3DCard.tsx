@@ -110,7 +110,20 @@ export const CardBody = ({
 	);
 };
 
-export const CardItem = ({
+export const CardItem = React.forwardRef<
+	HTMLElement,
+	{
+		as?: React.ElementType;
+		children: React.ReactNode;
+		className?: string;
+		translateX?: number | string;
+		translateY?: number | string;
+		translateZ?: number | string;
+		rotateX?: number | string;
+		rotateY?: number | string;
+		rotateZ?: number | string;
+	} & Record<string, any>
+>(({
 	as: Tag = "div",
 	children,
 	className,
@@ -121,29 +134,22 @@ export const CardItem = ({
 	rotateY = 0,
 	rotateZ = 0,
 	...rest
-}: {
-	as?: React.ElementType;
-	children: React.ReactNode;
-	className?: string;
-	translateX?: number | string;
-	translateY?: number | string;
-	translateZ?: number | string;
-	rotateX?: number | string;
-	rotateY?: number | string;
-	rotateZ?: number | string;
-
-	[key: string]: any;
-}) => {
-	const ref = useRef<HTMLDivElement>(null);
+}, forwardedRef) => {
+	const internalRef = useRef<HTMLElement>(null);
 	const [isMouseEntered] = useMouseEnter();
+
+	// Combine internal ref with forwarded ref
+	const ref = forwardedRef || internalRef;
 
 	useEffect(() => {
 		const handleAnimations = () => {
-			if (!ref.current) return;
+			const element = typeof ref === 'function' ? null : ref?.current;
+			if (!element) return;
+			
 			if (isMouseEntered) {
-				ref.current.style.transform = `translateX(${translateX}px) translateY(${translateY}px) translateZ(${translateZ}px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) rotateZ(${rotateZ}deg)`;
+				element.style.transform = `translateX(${translateX}px) translateY(${translateY}px) translateZ(${translateZ}px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) rotateZ(${rotateZ}deg)`;
 			} else {
-				ref.current.style.transform = `translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg)`;
+				element.style.transform = `translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg)`;
 			}
 		};
 		handleAnimations();
@@ -155,6 +161,7 @@ export const CardItem = ({
 		translateX,
 		translateY,
 		translateZ,
+		ref,
 	]);
 
 	return (
@@ -166,7 +173,9 @@ export const CardItem = ({
 			{children}
 		</Tag>
 	);
-};
+});
+
+CardItem.displayName = "CardItem";
 
 // Create a hook to use the context
 export const useMouseEnter = () => {

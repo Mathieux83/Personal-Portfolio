@@ -201,13 +201,14 @@ export const socialMedia = [
 	{
 		id: 1,
 		img: "/git.svg",
+		title: "GitHub",
+		link: 'https://github.com/Mathieux83'
 	},
 	{
 		id: 2,
-		img: "/twit.svg",
+		title: "Discord",
+		img: "/discord.svg",
+		link: "https://discord.com/users/480428304390684704"
 	},
-	{
-		id: 3,
-		img: "/link.svg",
-	},
+	
 ];

@@ -16,7 +16,8 @@ const Hero = () => {
 	}, []);
 
 	return (
-		<div className='pb-20 pt-36'>
+		<div className='flex items-center justify-center lg:pb-20 lg:pt-50 pb-20 pt-36'>
+		{/* <div className='pb-20 pt-36'> */}
 			<div className=''>
 				<div className=''>
 					<GridBackground />
@@ -43,7 +44,7 @@ const Hero = () => {
 
 				<div className='flex justify-center items-center relative my-25 z-10 '>
 					<div className='maw-w-[80vw] md:max-w-2xl lg:maw-w-[60vw] flex flex-col items-center justify-center'>
-						<h2 className='uppercase tracking-widest text-sx text-center dark:text-blue-100 max-w-80 '>
+						<h2 className='uppercase tracking-widest text-sx text-center text-blue-100 max-w-80 '>
 							A Dynamic Portfolio
 						</h2>
 						<TextGenerateEffect
