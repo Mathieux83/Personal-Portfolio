@@ -1,13 +1,15 @@
-# File Tree: portfolio
+# File Tree: Personal-Portfolio
 
-Generated on: 15/08/2025 22:31:42
-Root path: `c:\Users\Le M\Documents\DEV\Web-Site\Portfolio\portfolio`
+Generated on: 22/08/2025 14:44:56
+Root path: `c:\Users\Le M\Documents\DEV\Web-Site\Portfolio\Personal-Portfolio`
 
 ```
+├── 📁 .git/ 🚫 (auto-hidden)
 ├── 📁 .next/ 🚫 (auto-hidden)
 ├── 📁 app/
 │   ├── 📝 app.md
 │   ├── 🖼️ favicon.ico
+│   ├── 📄 global-error.tsx
 │   ├── 🎨 globals.css
 │   ├── 📄 layout.tsx
 │   ├── 📄 page.tsx
@@ -16,17 +18,26 @@ Root path: `c:\Users\Le M\Documents\DEV\Web-Site\Portfolio\portfolio`
 │   ├── 📁 ui/
 │   │   ├── 📁 svg/
 │   │   │   └── 🖼️ grid-pattern.svg
+│   │   ├── 📄 3DCard.tsx
 │   │   ├── 📄 BackgroundAnimation.tsx
 │   │   ├── 📄 BentoGrid.tsx
+│   │   ├── 📄 CanvasRevealEffect.tsx
 │   │   ├── 📄 DotsBackground.tsx
 │   │   ├── 📄 FloatingNav.tsx
 │   │   ├── 📄 Globe.tsx
 │   │   ├── 📄 GridGlobe.tsx
+│   │   ├── 📄 InfinitCards.tsx
 │   │   ├── 📄 LightRays.tsx
 │   │   ├── 📄 MagicButton.tsx
+│   │   ├── 📄 MovingBorder.tsx
 │   │   └── 📄 TextGenerateEffect.tsx
+│   ├── 📄 Approach.tsx
+│   ├── 📄 Clients.tsx
+│   ├── 📄 Experiences.tsx
+│   ├── 📄 Footer.tsx
 │   ├── 📄 Grid.tsx
 │   ├── 📄 Hero.tsx
+│   ├── 📄 RecentProjects.tsx
 │   └── 📝 components.md
 ├── 📁 data/
 │   ├── 📄 confetti.json
@@ -38,6 +49,8 @@ Root path: `c:\Users\Le M\Documents\DEV\Web-Site\Portfolio\portfolio`
 │   └── 📄 utils.ts
 ├── 📁 node_modules/ 🚫 (auto-hidden)
 ├── 📁 public/
+│   ├── 🖼️ GitHub_Logo_White.svg
+│   ├── 🖼️ ListMe.svg
 │   ├── 🖼️ app.svg
 │   ├── 🖼️ appName.svg
 │   ├── 🖼️ arrow.svg
@@ -49,46 +62,69 @@ Root path: `c:\Users\Le M\Documents\DEV\Web-Site\Portfolio\portfolio`
 │   ├── 🖼️ cloud.svg
 │   ├── 🖼️ cloudName.svg
 │   ├── 🖼️ confetti.gif
+│   ├── 🖼️ david.svg
+│   ├── 🖼️ discord.svg
 │   ├── 🖼️ dock.svg
 │   ├── 🖼️ dockerName.svg
+│   ├── 🖼️ emily.svg
 │   ├── 🖼️ exp1.svg
 │   ├── 🖼️ exp2.svg
 │   ├── 🖼️ exp3.svg
 │   ├── 🖼️ exp4.svg
 │   ├── 🖼️ fm.svg
 │   ├── 🖼️ footer-grid.svg
+│   ├── 🖼️ gigi.svg
 │   ├── 🖼️ git.svg
+│   ├── 🖼️ github-mark-white.svg
+│   ├── 🖼️ github-mark.svg
 │   ├── 🖼️ grid.svg
 │   ├── 🖼️ gsap.svg
 │   ├── 🖼️ host.svg
 │   ├── 🖼️ hostName.svg
 │   ├── 🖼️ insta.svg
+│   ├── 🖼️ js.svg
 │   ├── 🖼️ jsm-logo.png
+│   ├── 🖼️ karim.svg
 │   ├── 🖼️ link.svg
 │   ├── 🖼️ next.svg
+│   ├── 🖼️ ovhName.svg
 │   ├── 🖼️ p1.svg
 │   ├── 🖼️ p2.svg
 │   ├── 🖼️ p3.svg
 │   ├── 🖼️ p4.svg
 │   ├── 🖼️ profile.svg
 │   ├── 📝 public.md
+│   ├── 🖼️ pwa.svg
+│   ├── 🖼️ re-rout.svg
 │   ├── 🖼️ re.svg
 │   ├── 🖼️ s.svg
+│   ├── 🖼️ sophie.svg
 │   ├── 🖼️ stream.svg
 │   ├── 🖼️ streamName.svg
 │   ├── 🖼️ tail.svg
+│   ├── 🖼️ test.svg
 │   ├── 🖼️ three.svg
 │   ├── 🖼️ ts.svg
 │   ├── 🖼️ twit.svg
+│   ├── 🖼️ vercel.svg
+│   ├── 🖼️ vercelName.svg
+│   ├── 🖼️ vh.svg
 │   └── 🖼️ wha.svg
+├── 📄 .env.local 🚫 (auto-hidden)
+├── 📄 .env.sentry-build-plugin 🚫 (auto-hidden)
 ├── 🚫 .gitignore
 ├── 📖 README.md
+├── 📝 Tree.md
 ├── 📄 eslint.config.mjs
+├── 📄 instrumentation-client.ts
+├── 📄 instrumentation.ts
 ├── 📄 next-env.d.ts 🚫 (auto-hidden)
 ├── 📄 next.config.ts
 ├── 📄 package-lock.json
 ├── 📄 package.json
 ├── 📄 postcss.config.mjs
+├── 📄 sentry.edge.config.ts
+├── 📄 sentry.server.config.ts
 └── 📄 tsconfig.json
 ```
 

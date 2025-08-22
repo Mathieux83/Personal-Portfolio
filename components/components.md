@@ -1,23 +1,33 @@
 # File Tree: components
 
-Generated on: 15/08/2025 22:29:59
-Root path: `c:\Users\Le M\Documents\DEV\Web-Site\Portfolio\portfolio\components`
+Generated on: 22/08/2025 14:42:41
+Root path: `c:\Users\Le M\Documents\DEV\Web-Site\Portfolio\Personal-Portfolio\components`
 
 ```
 ├── 📁 ui/
 │   ├── 📁 svg/
 │   │   └── 🖼️ grid-pattern.svg
+│   ├── 📄 3DCard.tsx
 │   ├── 📄 BackgroundAnimation.tsx
 │   ├── 📄 BentoGrid.tsx
+│   ├── 📄 CanvasRevealEffect.tsx
 │   ├── 📄 DotsBackground.tsx
 │   ├── 📄 FloatingNav.tsx
 │   ├── 📄 Globe.tsx
 │   ├── 📄 GridGlobe.tsx
+│   ├── 📄 InfinitCards.tsx
 │   ├── 📄 LightRays.tsx
 │   ├── 📄 MagicButton.tsx
+│   ├── 📄 MovingBorder.tsx
 │   └── 📄 TextGenerateEffect.tsx
+├── 📄 Approach.tsx
+├── 📄 Clients.tsx
+├── 📄 Experiences.tsx
+├── 📄 Footer.tsx
 ├── 📄 Grid.tsx
-└── 📄 Hero.tsx
+├── 📄 Hero.tsx
+├── 📄 RecentProjects.tsx
+└── 📝 components.md
 ```
 
 ---

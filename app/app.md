@@ -1,10 +1,12 @@
 # File Tree: app
 
-Generated on: 15/08/2025 22:29:11
-Root path: `c:\Users\Le M\Documents\DEV\Web-Site\Portfolio\portfolio\app`
+Generated on: 22/08/2025 14:43:19
+Root path: `c:\Users\Le M\Documents\DEV\Web-Site\Portfolio\Personal-Portfolio\app`
 
 ```
+├── 📝 app.md
 ├── 🖼️ favicon.ico
+├── 📄 global-error.tsx
 ├── 🎨 globals.css
 ├── 📄 layout.tsx
 ├── 📄 page.tsx
