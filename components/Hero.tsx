@@ -16,33 +16,33 @@ const Hero = () => {
 	}, []);
 
 	return (
-		<div className='flex items-center justify-center lg:pb-20 lg:pt-50 pb-20 pt-36'>
+		<div className='flex items-center justify-center pb-50 pt-50'>
 		{/* <div className='pb-20 pt-36'> */}
 			<div className=''>
 				<div className=''>
 					<GridBackground />
 				</div>
 				{!isMobile && (
-					<div className='absolute left-0 top-0 w-full h-full '>
+					<div className='absolute left-0 top-0 w-screen h-screen  '>
 						<LightRays
 							raysOrigin='top-center'
-							raysColor='#5be1ff'
-							raysSpeed={0.5}
-							// lightSpread={0.5}
-							// rayLength={0.5}
+							raysColor='#00D4FF'
+							raysSpeed={0.1}
+							lightSpread={0.5}
+							rayLength={1}
 							pulsating={false}
-							// fadeDistance={0.7}
-							saturation={2}
+							fadeDistance={2}
+							saturation={1}
 							followMouse={true}
 							mouseInfluence={0.2}
-							noiseAmount={0.15}
+							noiseAmount={0.2}
 							distortion={0}
-							className=''
+							className='  '
 						/>
 					</div>
 				)}
 
-				<div className='flex justify-center items-center relative my-25 z-10 '>
+				<div className='flex justify-center items-center relative my-25 z-50 '>
 					<div className='maw-w-[80vw] md:max-w-2xl lg:maw-w-[60vw] flex flex-col items-center justify-center'>
 						<h2 className='uppercase tracking-widest text-sx text-center text-blue-100 max-w-80 '>
 							A Dynamic Portfolio
