@@ -6,7 +6,7 @@ const withNextIntl = createNextIntlPlugin("./i18n.ts");
 
 const nextConfig: NextConfig = {
 	/* config options here */
-	basePath: "/en",
+	// basePath: "/en",
 };
 
 export default withNextIntl(
