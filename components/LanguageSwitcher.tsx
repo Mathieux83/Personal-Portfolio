@@ -31,7 +31,7 @@ export default function LanguageSwitcher() {
 		>
 			{/* English Button */}
 			<button
-			type="button"
+				type="button"
 				onClick={() => switchLocale("en")}
 				disabled={isPending}
 				className={`
@@ -50,7 +50,7 @@ export default function LanguageSwitcher() {
 
 			{/* French Button */}
 			<button
-			type="button"
+				type="button"
 				onClick={() => switchLocale("fr")}
 				disabled={isPending}
 				className={`

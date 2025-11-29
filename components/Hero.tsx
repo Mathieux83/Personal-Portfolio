@@ -8,7 +8,7 @@ import MagicButton from "./ui/MagicButton";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
-	const t = useTranslations("hero");	
+	const t = useTranslations("hero");
 	const [isMobile, setIsMobile] = useState(false);
 
 	useEffect(() => {
