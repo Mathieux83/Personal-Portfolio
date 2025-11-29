@@ -1,6 +1,6 @@
 # File Tree: Personal-Portfolio
 
-Generated on: 22/08/2025 14:44:56
+Generated on: 22/08/2025 14:55:13
 Root path: `c:\Users\Le M\Documents\DEV\Web-Site\Portfolio\Personal-Portfolio`
 
 ```
@@ -51,16 +51,10 @@ Root path: `c:\Users\Le M\Documents\DEV\Web-Site\Portfolio\Personal-Portfolio`
 ├── 📁 public/
 │   ├── 🖼️ GitHub_Logo_White.svg
 │   ├── 🖼️ ListMe.svg
-│   ├── 🖼️ app.svg
-│   ├── 🖼️ appName.svg
-│   ├── 🖼️ arrow.svg
 │   ├── 🖼️ b1.svg
 │   ├── 🖼️ b4.svg
 │   ├── 🖼️ b5.svg
 │   ├── 🖼️ bg.png
-│   ├── 🖼️ c.svg
-│   ├── 🖼️ cloud.svg
-│   ├── 🖼️ cloudName.svg
 │   ├── 🖼️ confetti.gif
 │   ├── 🖼️ david.svg
 │   ├── 🖼️ discord.svg
@@ -71,51 +65,41 @@ Root path: `c:\Users\Le M\Documents\DEV\Web-Site\Portfolio\Personal-Portfolio`
 │   ├── 🖼️ exp2.svg
 │   ├── 🖼️ exp3.svg
 │   ├── 🖼️ exp4.svg
-│   ├── 🖼️ fm.svg
 │   ├── 🖼️ footer-grid.svg
 │   ├── 🖼️ gigi.svg
 │   ├── 🖼️ git.svg
 │   ├── 🖼️ github-mark-white.svg
-│   ├── 🖼️ github-mark.svg
 │   ├── 🖼️ grid.svg
-│   ├── 🖼️ gsap.svg
 │   ├── 🖼️ host.svg
 │   ├── 🖼️ hostName.svg
-│   ├── 🖼️ insta.svg
 │   ├── 🖼️ js.svg
-│   ├── 🖼️ jsm-logo.png
 │   ├── 🖼️ karim.svg
-│   ├── 🖼️ link.svg
 │   ├── 🖼️ next.svg
 │   ├── 🖼️ ovhName.svg
 │   ├── 🖼️ p1.svg
 │   ├── 🖼️ p2.svg
 │   ├── 🖼️ p3.svg
 │   ├── 🖼️ p4.svg
-│   ├── 🖼️ profile.svg
 │   ├── 📝 public.md
 │   ├── 🖼️ pwa.svg
 │   ├── 🖼️ re-rout.svg
 │   ├── 🖼️ re.svg
 │   ├── 🖼️ s.svg
 │   ├── 🖼️ sophie.svg
-│   ├── 🖼️ stream.svg
-│   ├── 🖼️ streamName.svg
 │   ├── 🖼️ tail.svg
 │   ├── 🖼️ test.svg
 │   ├── 🖼️ three.svg
 │   ├── 🖼️ ts.svg
-│   ├── 🖼️ twit.svg
 │   ├── 🖼️ vercel.svg
 │   ├── 🖼️ vercelName.svg
-│   ├── 🖼️ vh.svg
-│   └── 🖼️ wha.svg
+│   └── 🖼️ vh.svg
 ├── 📄 .env.local 🚫 (auto-hidden)
 ├── 📄 .env.sentry-build-plugin 🚫 (auto-hidden)
 ├── 🚫 .gitignore
 ├── 📖 README.md
 ├── 📝 Tree.md
 ├── 📄 eslint.config.mjs
+├── 🐍 find.py
 ├── 📄 instrumentation-client.ts
 ├── 📄 instrumentation.ts
 ├── 📄 next-env.d.ts 🚫 (auto-hidden)
