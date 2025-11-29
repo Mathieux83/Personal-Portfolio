@@ -9,7 +9,8 @@ export const navItems = [
 export const gridItems = [
 	{
 		id: 1,
-		title: "I prioritize quality over quantity, and fostering open communication ",
+		title:
+			"I prioritize quality over quantity, and fostering open communication ",
 		description: "",
 		className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
 		imgClassName: "w-full h-full",
@@ -100,12 +101,11 @@ export const testimonials = [
 	},
 	{
 		id: 2,
-
 		quote:
-			"Travailler avec Mathieux a été une expérience exceptionnelle. Sa créativité et son sens du détail ont donné vie à notre projet bien au-delà de nos attentes. Toujours à l’écoute et réactif, c’est un véritable partenaire de confiance.",
+			"Working with Mathieux was an exceptional experience. His creativity and attention to detail brought our project to life well beyond our expectations. Always attentive and responsive, he is a true trusted partner.",
 		name: "Sophie Martin",
 		title: "Responsable Communication chez Nova Créations",
-		img: '/sophie.svg'
+		img: "/sophie.svg",
 	},
 	{
 		id: 3,
@@ -113,15 +113,15 @@ export const testimonials = [
 			"Mathieux is a highly skilled developer who not only understands technical challenges but also provides innovative solutions. His ability to adapt and deliver on time makes him an invaluable asset to any project.",
 		name: "David Thompson",
 		title: "Project Manager at BrightTech Solutions",
-		img: '/david.svg'
+		img: "/david.svg",
 	},
 	{
 		id: 4,
 		quote:
-			"Nous avons collaboré avec Mathieux sur la refonte de notre plateforme. Sa rigueur, son professionnalisme ainsi que sa disponibilité ont grandement contribué au succès du projet.",
+			"We collaborated with Mathieux on the redesign of our platform. His rigor, professionalism and availability greatly contributed to the success of the project.",
 		name: "Karim Benali",
 		title: "CTO de StartUp Innov",
-		img: '/karim.svg'
+		img: "/karim.svg",
 	},
 	{
 		id: 5,
@@ -129,7 +129,7 @@ export const testimonials = [
 			"Working with Mathieux was seamless from start to finish. His enthusiasm, problem-solving mindset, and technical knowledge made the whole process smooth and efficient.",
 		name: "Emily Rodriguez",
 		title: "CEO of Visionary Web Agency",
-		img: '/emily.svg'
+		img: "/emily.svg",
 	},
 ];
 
@@ -202,13 +202,12 @@ export const socialMedia = [
 		id: 1,
 		img: "/git.svg",
 		title: "GitHub",
-		link: 'https://github.com/Mathieux83'
+		link: "https://github.com/Mathieux83",
 	},
 	{
 		id: 2,
 		title: "Discord",
 		img: "/discord.svg",
-		link: "https://discord.com/users/480428304390684704"
+		link: "https://discord.com/users/480428304390684704",
 	},
-	
 ];

@@ -1,0 +1,118 @@
+{
+	"nav": {
+		"about": "À propos",
+		"projects": "Projets",
+		"testimonials": "Clients",
+		"experiences": "Expériences",
+		"contact": "Contact"
+	},
+	"hero": {
+		"subtitle": "Un Portfolio Dynamique",
+		"title": "Transformez vos idées en réalité",
+		"description": "Salut, je suis Mathieux, un jeune Développeur basé en France.",
+		"cta": "Voir mes Travaux"
+	},
+	"grid": {
+		"item1": {
+			"title": "Je privilégie la qualité à la quantité et favorise une communication ouverte"
+		},
+		"item2": {
+			"title": "Je suis flexible avec les fuseaux horaires"
+		},
+		"item3": {
+			"title": "Ma stack technique",
+			"description": "J'essaie constamment d'apprendre"
+		},
+		"item4": {
+			"title": "Passionné de technologie avec une passion pour le développement."
+		},
+		"item5": {
+			"title": "J'essaie toujours de nouvelles fonctionnalités dans un Playground",
+			"description": "Les Coulisses"
+		},
+		"item6": {
+			"title": "Voulez-vous démarrer un projet ensemble ?",
+			"button": "Copiez mon adresse mail",
+			"after": "Adresse mail copiée !"
+		}
+	},
+	"projects": {
+		"title": "Une petite sélection de projets récents",
+		"project1": {
+			"title": "GigiHesse 2.0 - Site Web",
+			"description": "Un site simple pour \"GigiHesse\" pour en savoir plus sur lui et ce qu'il fait"
+		},
+		"project2": {
+			"title": "ListMe - Application PWA",
+			"description": "Simplifiez vos courses avec une application PWA tout-en-un de gestion de liste de courses"
+		}
+	},
+	"testimonials": {
+		"title": "Quelques mots gentils de clients satisfaits",
+		"testimonial1": {
+			"quote": "Collaborer avec Mathieux a été un véritable plaisir. Son professionnalisme, sa rapidité et son dévouement à fournir des résultats exceptionnels ont été évidents tout au long de notre projet, même s'il travaille seul. L'enthousiasme de Mathieux pour chaque facette du développement se démarque vraiment. Si vous cherchez à élever votre site web et votre marque, Mathieux est le partenaire idéal.",
+			"name": "GigiHesse",
+			"title": "Artiste - Indépendant"
+		},
+		"testimonial2": {
+			"quote": "Travailler avec Mathieux a été une expérience exceptionnelle. Sa créativité et son sens du détail ont donné vie à notre projet bien au-delà de nos attentes. Toujours à l'écoute et réactif, c'est un véritable partenaire de confiance.",
+			"name": "Sophie Martin",
+			"title": "Responsable Communication chez Nova Créations"
+		},
+		"testimonial3": {
+			"quote": "Mathieux est un développeur hautement qualifié qui non seulement comprend les défis techniques, mais fournit également des solutions innovantes. Sa capacité à s'adapter et à livrer à temps fait de lui un atout inestimable pour tout projet.",
+			"name": "David Thompson",
+			"title": "Chef de Projet chez BrightTech Solutions"
+		},
+		"testimonial4": {
+			"quote": "Nous avons collaboré avec Mathieux sur la refonte de notre plateforme. Sa rigueur, son professionnalisme ainsi que sa disponibilité ont grandement contribué au succès du projet.",
+			"name": "Karim Benali",
+			"title": "CTO de StartUp Innov"
+		},
+		"testimonial5": {
+			"quote": "Travailler avec Mathieux s'est déroulé sans accroc du début à la fin. Son enthousiasme, son esprit de résolution de problèmes et ses connaissances techniques ont rendu l'ensemble du processus fluide et efficace.",
+			"name": "Emily Rodriguez",
+			"title": "PDG de Visionary Web Agency"
+		}
+	},
+	"experiences": {
+		"title": "Mon expérience en tant que développeur",
+		"exp1": {
+			"title": "Développeur Full-Stack",
+			"description": "Réalisation de projets complets de A à Z, du développement au déploiement et à la maintenance."
+		},
+		"exp2": {
+			"title": "Développeur d'Applications Mobiles - Technologie PWA",
+			"description": "Conception et développement d'applications mobiles pour iOS et Android en utilisant React Native et PWA."
+		},
+		"exp3": {
+			"title": "Projet de Développement d'Application en Freelance",
+			"description": "Direction du développement d'une application mobile pour un client, du concept initial au déploiement sur les stores."
+		},
+		"exp4": {
+			"title": "Développeur Frontend & Backend Principal",
+			"description": "Développement et maintenance de fonctionnalités orientées utilisateur avec des technologies modernes."
+		}
+	},
+	"approach": {
+		"title": "Voici par étapes comment je procède",
+		"phase1": {
+			"title": "Planification & Stratégie",
+			"description": "Nous collaborerons pour définir les objectifs de votre site web, votre public cible et les fonctionnalités clés. Nous discuterons de la structure du site, de la navigation et des exigences de contenu."
+		},
+		"phase2": {
+			"title": "Développement & Mise à Jour des Progrès",
+			"description": "Une fois que nous sommes d'accord sur le plan, je lance ma playlist lofi et je plonge dans le code. Des premières esquisses au code poli, je vous tiens informé à chaque étape."
+		},
+		"phase3": {
+			"title": "Développement & Lancement",
+			"description": "C'est là que la magie opère ! Sur la base du design approuvé, je traduirai tout en code fonctionnel, construisant votre site web de A à Z."
+		}
+	},
+	"footer": {
+		"heading": "Prêt à faire de votre projet une Réalité ?",
+		"description": "Contactez-moi dès aujourd'hui et discutons de la façon dont je peux vous aider à atteindre vos objectifs.",
+		"cta": "Contactez-moi",
+		"copyright": "Copyright © 2025 Mathieux's. Tous droits réservés."
+	}
+}

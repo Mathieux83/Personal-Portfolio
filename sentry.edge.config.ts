@@ -6,14 +6,14 @@
 import * as Sentry from "@sentry/nextjs";
 
 Sentry.init({
-  dsn: "https://014020a17bff806dc1f29e42a339d89d@o4509859311124480.ingest.de.sentry.io/4509859314139216",
+	dsn: "https://014020a17bff806dc1f29e42a339d89d@o4509859311124480.ingest.de.sentry.io/4509859314139216",
 
-  // Define how likely traces are sampled. Adjust this value in production, or use tracesSampler for greater control.
-  tracesSampleRate: 1,
+	// Define how likely traces are sampled. Adjust this value in production, or use tracesSampler for greater control.
+	tracesSampleRate: 1,
 
-  // Enable logs to be sent to Sentry
-  enableLogs: true,
+	// Enable logs to be sent to Sentry
+	enableLogs: true,
 
-  // Setting this option to true will print useful information to the console while you're setting up Sentry.
-  debug: false,
+	// Setting this option to true will print useful information to the console while you're setting up Sentry.
+	debug: false,
 });

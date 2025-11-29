@@ -1,0 +1,119 @@
+{
+	"nav": {
+		"about": "About",
+		"projects": "Projects",
+		"testimonials": "Testimonials",
+		"experiences": "Experiences",
+		"contact": "Contact"
+	},
+	"hero": {
+		"subtitle": "A Dynamic Portfolio",
+		"title": "Turn your ideas into reality",
+		"description": "Hi I'm Mathieux, a fresh Developer based in France.",
+		"cta": "Show my Works"
+	},
+	"grid": {
+		"item1": {
+			"title": "I prioritize quality over quantity, and fostering open communication"
+		},
+		"item2": {
+			"title": "I'm flexible with time zone communications"
+		},
+		"item3": {
+			"title": "My tech stack",
+			"description": "I constantly try to learn"
+		},
+		"item4": {
+			"title": "Tech enthusiast with a passion for development."
+		},
+		"item5": {
+			"title": "Always try new features in a Playground",
+			"description": "The Inside Scoop"
+		},
+		"item6": {
+			"title": "Do you want to start a project together ?",
+			"button": "Copy my email",
+			"after": "Email copied !"
+		}
+	},
+	"projects": {
+		"title": "A small selection of recent projects",
+
+		"project1": {
+			"title": "GigiHesse 2.0 - Website",
+			"description": "A simple site for \"GigiHesse\" and learn more about him and what he does"
+		},
+		"project2": {
+			"title": "ListMe - PWA Application",
+			"description": "Simplify your shopping with an all-in-one shopping list management PWA app"
+		}
+	},
+	"testimonials": {
+		"title": "Kind words from satisfied clients",
+		"testimonial1": {
+			"quote": "Collaborating with Mathieux was an absolute pleasure. His professionalism, promptness and dedication to delivering outstanding results were evident throughout our project, even if he works alone. Mathieux's enthusiasm for every facet of development really stands out. If you are looking to elevate your website and brand, Mathieux is the perfect partner.",
+			"name": "GigiHesse",
+			"title": "Artist - Independent"
+		},
+		"testimonial2": {
+			"quote": "Working with Mathieux was an exceptional experience. His creativity and attention to detail brought our project to life well beyond our expectations. Always attentive and responsive, he is a true trusted partner.",
+			"name": "Sophie Martin",
+			"title": "Communication Manager at Nova Créations"
+		},
+		"testimonial3": {
+			"quote": "Mathieux is a highly skilled developer who not only understands technical challenges but also provides innovative solutions. His ability to adapt and deliver on time makes him an invaluable asset to any project.",
+			"name": "David Thompson",
+			"title": "Project Manager at BrightTech Solutions"
+		},
+		"testimonial4": {
+			"quote": "We collaborated with Mathieux on the redesign of our platform. His rigor, professionalism and availability greatly contributed to the success of the project.",
+			"name": "Karim Benali",
+			"title": "CTO at StartUp Innov"
+		},
+		"testimonial5": {
+			"quote": "Working with Mathieux was seamless from start to finish. His enthusiasm, problem-solving mindset, and technical knowledge made the whole process smooth and efficient.",
+			"name": "Emily Rodriguez",
+			"title": "CEO of Visionary Web Agency"
+		}
+	},
+	"experiences": {
+		"title": "This is my work experience",
+		"exp1": {
+			"title": "Full-Stack Developer",
+			"description": "Making complet project from scratch to deployment and maintenance."
+		},
+		"exp2": {
+			"title": "Mobile App Dev - PWA Tech",
+			"description": "Designed and developed mobile app for both iOS & Android platforms using React Native and PWA."
+		},
+		"exp3": {
+			"title": "Freelance App Dev Project",
+			"description": "Led the dev of a mobile app for a client, from initial concept to deployment on app stores."
+		},
+		"exp4": {
+			"title": "Lead Frontend & Backend Developer",
+			"description": "Developed and maintained user-facing features using modern technologies."
+		}
+	},
+	"approach": {
+		"title": "This is how I approach",
+		"phase1": {
+			"title": "Planning & Strategy",
+			"description": "We'll collaborate to map out your website's goals, target audience, and key functionalities. We'll discuss things like site structure, navigation, and content requirements."
+		},
+		"phase2": {
+			"title": "Development & Progress Update",
+			"description": "Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
+		},
+		"phase3": {
+			"title": "Development & Launch",
+			"description": "This is where the magic happens! Based on the approved design, I'll translate everything into functional code, building your website from the ground up."
+		}
+	},
+	"footer": {
+		"heading": "Ready to make your project as Reality ?",
+		"description": "Reach out to me today and let's discuss how I can help you achieve your goals.",
+		"cta": "Let's get in touch",
+		"copyright": "Copyright © 2025 Mathieux's. All rights reserved."
+	}
+}

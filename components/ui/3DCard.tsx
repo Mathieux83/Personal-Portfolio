@@ -1,15 +1,14 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
-import { cn } from "@/lib/utils";
-
 import React, {
 	createContext,
-	useState,
 	useContext,
-	useRef,
 	useEffect,
+	useRef,
+	useState,
 } from "react";
+import { cn } from "@/lib/utils";
 
 const isMobile = () => {
 	const userAgent =
@@ -65,7 +64,7 @@ export const CardContainer = ({
 			<div
 				className={cn(
 					"py-20 flex items-center justify-center",
-					containerClassName
+					containerClassName,
 				)}
 				style={{
 					perspective: "1000px",
@@ -78,7 +77,7 @@ export const CardContainer = ({
 					onMouseLeave={handleMouseLeave}
 					className={cn(
 						"flex items-center justify-center relative transition-all duration-200 ease-linear",
-						className
+						className,
 					)}
 					style={{
 						transformStyle: "preserve-3d",
@@ -102,7 +101,7 @@ export const CardBody = ({
 		<div
 			className={cn(
 				"h-96 w-96 [transform-style:preserve-3d]  [&>*]:[transform-style:preserve-3d]",
-				className
+				className,
 			)}
 		>
 			{children}
@@ -123,57 +122,62 @@ export const CardItem = React.forwardRef<
 		rotateY?: number | string;
 		rotateZ?: number | string;
 	} & Record<string, any>
->(({
-	as: Tag = "div",
-	children,
-	className,
-	translateX = 0,
-	translateY = 0,
-	translateZ = 0,
-	rotateX = 0,
-	rotateY = 0,
-	rotateZ = 0,
-	...rest
-}, forwardedRef) => {
-	const internalRef = useRef<HTMLElement>(null);
-	const [isMouseEntered] = useMouseEnter();
+>(
+	(
+		{
+			as: Tag = "div",
+			children,
+			className,
+			translateX = 0,
+			translateY = 0,
+			translateZ = 0,
+			rotateX = 0,
+			rotateY = 0,
+			rotateZ = 0,
+			...rest
+		},
+		forwardedRef,
+	) => {
+		const internalRef = useRef<HTMLElement>(null);
+		const [isMouseEntered] = useMouseEnter();
 
-	// Combine internal ref with forwarded ref
-	const ref = forwardedRef || internalRef;
+		// Combine internal ref with forwarded ref
+		const ref = forwardedRef || internalRef;
 
-	useEffect(() => {
-		const handleAnimations = () => {
-			const element = typeof ref === 'function' ? null : ref?.current;
-			if (!element) return;
-			
-			if (isMouseEntered) {
-				element.style.transform = `translateX(${translateX}px) translateY(${translateY}px) translateZ(${translateZ}px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) rotateZ(${rotateZ}deg)`;
-			} else {
-				element.style.transform = `translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg)`;
-			}
-		};
-		handleAnimations();
-	}, [
-		isMouseEntered,
-		rotateX,
-		rotateY,
-		rotateZ,
-		translateX,
-		translateY,
-		translateZ,
-		ref,
-	]);
+		useEffect(() => {
+			const handleAnimations = () => {
+				const element = typeof ref === "function" ? null : ref?.current;
+				if (!element) return;
 
-	return (
-		<Tag
-			ref={ref}
-			className={cn("w-fit transition duration-200 ease-linear", className)}
-			{...rest}
-		>
-			{children}
-		</Tag>
-	);
-});
+				if (isMouseEntered) {
+					element.style.transform = `translateX(${translateX}px) translateY(${translateY}px) translateZ(${translateZ}px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) rotateZ(${rotateZ}deg)`;
+				} else {
+					element.style.transform = `translateX(0px) translateY(0px) translateZ(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg)`;
+				}
+			};
+			handleAnimations();
+		}, [
+			isMouseEntered,
+			rotateX,
+			rotateY,
+			rotateZ,
+			translateX,
+			translateY,
+			translateZ,
+			ref,
+		]);
+
+		return (
+			<Tag
+				ref={ref}
+				className={cn("w-fit transition duration-200 ease-linear", className)}
+				{...rest}
+			>
+				{children}
+			</Tag>
+		);
+	},
+);
 
 CardItem.displayName = "CardItem";
 
