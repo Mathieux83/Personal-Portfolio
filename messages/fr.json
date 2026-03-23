@@ -39,7 +39,7 @@
 			"description": "Les Coulisses"
 		},
 		"item6": {
-			"title": "Voulez-vous démarrer un projet ensemble ?",
+			"title": "Voulez-vous démarrer ensemble un projet ?",
 			"button": "Copiez mon adresse mail",
 			"after": "Adresse mail copiée !"
 		}
@@ -52,7 +52,7 @@
 		},
 		"project2": {
 			"title": "ListMe - Application PWA",
-			"description": "Simplifiez vos courses avec une application PWA tout-en-un de gestion de liste de courses"
+			"description": "Simplifiez vos tâches et vos courses avec une application PWA tout-en-un de gestion de listes"
 		}
 	},
 	"testimonials": {
