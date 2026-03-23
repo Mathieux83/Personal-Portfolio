@@ -85,7 +85,7 @@ export const projects = [
 		id: 2,
 		title: "ListMe - PWA Application",
 		des: "Simplify your shopping with an all-in-one shopping list management PWA app",
-		img: "/listMe.svg",
+		img: "/listme.svg",
 		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/js.svg", "/pwa.svg"],
 		link: "https://listme.fr",
 	},
