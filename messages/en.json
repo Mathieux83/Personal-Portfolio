@@ -4,6 +4,7 @@
 		"projects": "Projects",
 		"testimonials": "Testimonials",
 		"experiences": "Experiences",
+		"cv": "CV",
 		"contact": "Contact"
 	},
 	"hero": {
@@ -11,6 +12,13 @@
 		"title": "Turn your ideas into reality",
 		"description": "Hi I'm Mathieux, a fresh Developer based in France.",
 		"cta": "Show my Works"
+	},
+	"cv": {
+		"discover": "Want to know more about me ?",
+		"title": "My CV",
+		"description": "Discover my professional background and skills",
+		"download": "Download CV",
+		"button": "Check my CV"
 	},
 	"grid": {
 		"item1": {
@@ -38,7 +46,6 @@
 	},
 	"projects": {
 		"title": "A small selection of recent projects",
-
 		"project1": {
 			"title": "GigiHesse 2.0 - Website",
 			"description": "A simple site for \"GigiHesse\" and learn more about him and what he does"
@@ -114,6 +121,6 @@
 		"heading": "Ready to make your project as Reality ?",
 		"description": "Reach out to me today and let's discuss how I can help you achieve your goals.",
 		"cta": "Let's get in touch",
-		"copyright": "Copyright © 2025 Mathieux's. All rights reserved."
+		"copyright": "Copyright © 2026 Mathieux's. All rights reserved."
 	}
 }

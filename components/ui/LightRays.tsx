@@ -350,7 +350,7 @@ void main() {
 							loseContextExt.loseContext();
 						}
 
-						if (canvas && canvas.parentNode) {
+						if (canvas?.parentNode) {
 							canvas.parentNode.removeChild(canvas);
 						}
 					} catch (error) {
@@ -443,7 +443,7 @@ void main() {
 	return (
 		<div
 			ref={containerRef}
-			className={`w-full h-full pointer-events-none z-[3] overflow-hidden relative ${className}`.trim()}
+			className={`w-full h-full pointer-events-none z-3 overflow-hidden relative ${className}`.trim()}
 		/>
 	);
 };

@@ -4,7 +4,6 @@
   --color-black-100: #000319;
 }
 
-
 @theme inline {
   --animate-first: moveVertical 30s ease infinite;
   --animate-second: moveInCircle 20s reverse infinite;
@@ -57,7 +56,7 @@
 }
 
 @layer utilities {
-  .heading {
-    @apply font-bold text-4xl md:text-5xl text-center;
-  }
+	.heading {
+		@apply font-bold text-4xl md:text-5xl text-center;
+	}
 }

@@ -4,6 +4,7 @@
 		"projects": "Projets",
 		"testimonials": "Clients",
 		"experiences": "Expériences",
+		"cv": "CV",
 		"contact": "Contact"
 	},
 	"hero": {
@@ -11,6 +12,13 @@
 		"title": "Transformez vos idées en réalité",
 		"description": "Salut, je suis Mathieux, un jeune Développeur basé en France.",
 		"cta": "Voir mes Travaux"
+	},
+	"cv": {
+		"discover": "Tu veux en savoir plus sur moi ?",
+		"title": "Mon CV",
+		"description": "Découvrez mon parcours professionnel et mes compétences",
+		"download": "Télécharger le CV",
+		"button": "Regarde mon CV"
 	},
 	"grid": {
 		"item1": {
@@ -113,6 +121,6 @@
 		"heading": "Prêt à faire de votre projet une Réalité ?",
 		"description": "Contactez-moi dès aujourd'hui et discutons de la façon dont je peux vous aider à atteindre vos objectifs.",
 		"cta": "Contactez-moi",
-		"copyright": "Copyright © 2025 Mathieux's. Tous droits réservés."
+		"copyright": "Copyright © 2026 Mathieux's. Tous droits réservés."
 	}
 }

@@ -25,7 +25,7 @@ export const CanvasRevealEffect = ({
 }) => {
 	return (
 		<div className={cn("h-full relative bg-white w-full", containerClassName)}>
-			<div className="h-full w-full">
+			<div className='h-full w-full'>
 				<DotMatrix
 					colors={colors ?? [[0, 255, 255]]}
 					dotSize={dotSize ?? 3}
@@ -42,7 +42,7 @@ export const CanvasRevealEffect = ({
 				/>
 			</div>
 			{showGradient && (
-				<div className="absolute inset-0 bg-gradient-to-t from-gray-950 to-[84%]" />
+				<div className='absolute inset-0 bg-linear-to-t from-gray-950 to-84%' />
 			)}
 		</div>
 	);
@@ -249,8 +249,8 @@ const ShaderMaterial = ({
 					break;
 			}
 		}
-		preparedUniforms["u_time"] = { value: 0, type: "1f" };
-		preparedUniforms["u_resolution"] = {
+		preparedUniforms.u_time = { value: 0, type: "1f" };
+		preparedUniforms.u_resolution = {
 			value: new THREE.Vector2(size.width * 2, size.height * 2),
 		}; // Initialize u_resolution
 		return preparedUniforms;
@@ -288,14 +288,14 @@ const ShaderMaterial = ({
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		<mesh ref={ref as any}>
 			<planeGeometry args={[2, 2]} />
-			<primitive object={material} attach="material" />
+			<primitive object={material} attach='material' />
 		</mesh>
 	);
 };
 
 const Shader: React.FC<ShaderProps> = ({ source, uniforms, maxFps = 60 }) => {
 	return (
-		<Canvas className="absolute inset-0  h-full w-full">
+		<Canvas className='absolute inset-0  h-full w-full'>
 			<ShaderMaterial source={source} uniforms={uniforms} maxFps={maxFps} />
 		</Canvas>
 	);

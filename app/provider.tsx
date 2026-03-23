@@ -7,17 +7,14 @@ export default function Providers({ children }: { children: React.ReactNode }) {
 
 	useEffect(() => setMounted(true), []);
 
-	// On ne met pas ThemeProvider tant que ce n'est pas monté côté client
-	if (!mounted) {
-		return <>{children}</>;
-	}
-
 	return (
 		<ThemeProvider
-			attribute="class"
-			defaultTheme="dark"
+			attribute='class'
+			defaultTheme='dark'
 			enableSystem={true}
 			disableTransitionOnChange
+			forcedTheme={!mounted ? undefined : undefined}
+			storageKey='theme'
 		>
 			{children}
 		</ThemeProvider>

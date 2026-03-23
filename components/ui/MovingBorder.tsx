@@ -33,7 +33,7 @@ export function Button({
 	return (
 		<Component
 			className={cn(
-				"relative overflow-hidden bg-transparent p-[1px] text-xl md:col-span-2",
+				"relative overflow-hidden bg-transparent p-px text-xl md:col-span-2",
 				containerClassName,
 			)}
 			style={{
@@ -42,10 +42,10 @@ export function Button({
 			{...otherProps}
 		>
 			<div
-				className="absolute inset-0"
+				className='absolute inset-0'
 				style={{ borderRadius: `calc(${borderRadius} * 0.96)` }}
 			>
-				<MovingBorder duration={duration} rx="30%" ry="30%">
+				<MovingBorder duration={duration} rx='30%' ry='30%'>
 					<div
 						className={cn(
 							"h-50 w-50 bg-[radial-gradient(#FF5454_40%,transparent_60%)] opacity-[0.8]",
@@ -108,17 +108,17 @@ export const MovingBorder = ({
 	return (
 		<>
 			<svg
-				xmlns="http://www.w3.org/2000/svg"
-				preserveAspectRatio="none"
-				className="absolute h-full w-full"
-				width="100%"
-				height="100%"
+				xmlns='http://www.w3.org/2000/svg'
+				preserveAspectRatio='none'
+				className='absolute h-full w-full'
+				width='100%'
+				height='100%'
 				{...otherProps}
 			>
 				<rect
-					fill="none"
-					width="100%"
-					height="100%"
+					fill='none'
+					width='100%'
+					height='100%'
 					rx={rx}
 					ry={ry}
 					ref={pathRef}
